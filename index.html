@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="sizing.css" />
   <title>Role-Playing Survey | Welcome!</title>
 </head>
 
@@ -15,16 +16,18 @@
       <h1 id="title" tabindex="1">"The Magic of the Wizard's Dream"</h1>
       <p id="description" tabindex="0">An exciting magical Role Playing Survey.</p>
       <img src="https://res.cloudinary.com/f0rsakenc0der/image/upload/v1523173390/5-2-ouroboros-png-file.png" alt="Ouroboros snakes"
-      tabindex="0"/>
+        tabindex="0" />
     </header>
 
     <form action="#" id="survey-form">
+
       <label for="name" id="name-label" tabindex="0">Enter your Username: </label>
       <input name="name" type="text" id="name" placeholder="Enter username.." required tabindex="0">
       <label for="pass" id="pass-label" tabindex="0">Enter your Password:</label>
       <input name="pass" type="password" id="pass" placeholder="Enter password.." required tabindex="0">
       <label for="email" id="email-label" tabindex="0">Enter your Email:</label>
       <input name="email" type="email" id="email" placeholder="you@example.com" required tabindex="0">
+
       <br>
 
       <legend for="gender" id="gender-label" tabindex="0">Choose your Faction: </legend>
@@ -47,7 +50,7 @@
 
       <br>
       <label for="class" id="dropdown" tabindex="0">Choose a class:</label>
-      <select name="class">
+      <select name="class" id="classes">
         <option value="fighter" tabindex="0">Warrior</option>
         <option value="mage" tabindex="0">Mage</option>
         <option value="assassin" tabindex="0">Assassin</option>
@@ -84,9 +87,7 @@
           <label for="tanned">Brazilian tanned skin</label>
         </div>
       </div>
-
       <br>
-
       <label for="favcolor" id="favcolor-label" tabindex="0">Select your armor colors:</label>
       <div class="colors">
         <input type="color" name="favcolor" value="#000000" tabindex="0">
@@ -94,18 +95,15 @@
         <input type="color" name="favcolor" value="#0b021b" tabindex="0">
       </div>
       <br>
-
       <label for="comment" id="comment-label" tabindex="0">Shout to the World:</label>
       <textarea name="comment" id="comment" cols="40" rows="5" tabindex="0" placeholder="With your first log in, the text will appear in the Global chat.."></textarea>
       <button type="submit" id="submit-btn" tabindex="2">Enter the Void</button>
     </form>
 
   </div>
-
   <footer>
     <p tabindex="0">Created by George M.&copy</p>
   </footer>
-
 </body>
 
 </html>

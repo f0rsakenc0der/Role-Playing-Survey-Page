@@ -1,0 +1,224 @@
+@media (max-width: 1440px) {
+
+    .container {
+        width: 90%;
+    }
+
+
+    header h1 {
+        font-size: 1.3em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+
+    #survey-form {
+        font-size: 1.2em;
+    }
+
+    input, textarea {
+        font-size: 0.8em;
+    }
+
+    select {
+        width: 40%;
+        font-size: 0.8em;
+     }
+
+     #number {
+         font-size: 0.8em;
+     }
+
+     .checkbox, .radios {
+         font-size: 0.9em;
+         width: 90%;
+     }
+
+     button {
+         font-size: 0.8em;
+     }
+
+     footer p {
+         font-size: 0.8em;
+     }
+
+     input[type="radio"] {
+        -ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1); /* Chrome, Safari, Opera */
+        transform: scale(1);
+        margin: 5px 7px 5px 5px;
+    }
+
+    #name, #email, #pass {
+        width: 80%;
+        font-size: 0.8em;
+    }
+ }
+
+ @media (max-width: 899px) {
+
+    header h1 {
+        font-size: 0.9em;
+    }
+    
+    header p {
+        font-size: 0.8em;
+    }
+
+    input, textarea {
+        font-size: 0.7em;
+    }
+
+    select {
+        font-size: 0.7em;
+     }
+
+     #number {
+         font-size: 0.7em;
+     }
+
+     .checkbox, .radios {
+         font-size: 0.8em;
+         width: 80%;
+     }
+
+     #submit-btn {
+         font-size: 0.6em;
+     }
+
+     footer p {
+         font-size: 0.7em;
+     }
+
+    #name, #email, #pass {
+        width: 80%;
+        font-size: 0.7em;
+    }
+
+    #survey-form {
+        display: grid;
+        font-size: 1.4em;
+        grid-template-areas: 
+        "main1"
+        "main1-2"
+        "main1-3"
+        "main1-4"
+        "main1-5"
+        "main1-6"
+        "main1-7"
+        "main1-8"
+        "main1-9"
+        "main2-1"
+        "main2-2"
+        "main2-3"
+        "main2-4"
+        "main2-5"
+        "main2-6"
+        "main2-7"
+        "main2-8"
+        "main2-9";
+    }
+
+    #name-label {
+        grid-area: main1;
+    }
+
+    #name {
+        grid-area: main1-2;
+        width: 100%;
+    }
+
+    #pass-label {
+        grid-area: main1-3;
+    }
+
+    #pass {
+        grid-area: main1-4;
+        width: 100%;
+    }
+    
+    #email-label {
+        grid-area: main1-5;
+    }
+
+    #email {
+        grid-area: main1-6;
+        width: 100%;
+    }
+
+    #gender-label {
+        grid-area: main1-7;
+    }
+
+    .radios {
+        grid-area: main1-8;
+    }
+
+    #dropdown {
+        grid-area: main1-9;
+        width: 100%;
+    }
+
+    #classes {
+        grid-area: main2-1;
+    }
+
+    #number-label {
+        grid-area: main2-2;
+    }
+
+    #number {
+        grid-area: main2-3;
+    }
+
+    #ability-label {
+        grid-area: main2-4;
+    }
+
+    .checkbox {
+        grid-area: main2-5;
+    }
+
+    #favcolor-label {
+        grid-area: main2-6;
+    }
+
+    .colors {
+        grid-area: main2-7;
+        width: 100%;
+    }
+
+    #comment-label {
+        grid-area: main2-8;
+    }
+
+    #comment {
+        grid-area: main2-9;
+        width: 100%;
+    }
+ }
+
+ @media (max-width: 530px) {
+     #survey-form {
+         font-size: 0.9em;
+     }
+
+     .checkbox, .radios {
+        width: fit-content;
+    }
+
+
+ }
+
+ @media (max-width: 360px) {
+    #survey-form {
+        font-size: 0.7em;
+    }
+
+    .checkbox, .radios {
+       width: fit-content;
+   }
+
+
+}

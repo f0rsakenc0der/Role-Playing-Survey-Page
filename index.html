@@ -15,38 +15,38 @@
       <h1 id="title" tabindex="1">"The Magic of the Wizard's Dream"</h1>
       <p id="description" tabindex="0">An exciting magical Role Playing Survey.</p>
       <img src="https://res.cloudinary.com/f0rsakenc0der/image/upload/v1523173390/5-2-ouroboros-png-file.png" alt="Ouroboros snakes"
-      />
+      tabindex="0"/>
     </header>
 
     <form action="#" id="survey-form">
-      <label for="name" id="name-label">Enter your Username: </label>
+      <label for="name" id="name-label" tabindex="0">Enter your Username: </label>
       <input name="name" type="text" id="name" placeholder="Enter username.." required tabindex="0">
-      <label for="pass" id="pass-label">Enter your Password:</label>
+      <label for="pass" id="pass-label" tabindex="0">Enter your Password:</label>
       <input name="pass" type="password" id="pass" placeholder="Enter password.." required tabindex="0">
-      <label for="email" id="email-label">Enter your Email:</label>
+      <label for="email" id="email-label" tabindex="0">Enter your Email:</label>
       <input name="email" type="email" id="email" placeholder="you@example.com" required tabindex="0">
       <br>
 
-      <legend for="gender" id="gender-label">Choose your Faction: </legend>
+      <legend for="gender" id="gender-label" tabindex="0">Choose your Faction: </legend>
       <div class="radios">
-        <label id="radio-label">
-          <input id="radio-btn" type="radio" name="gender" value="Human" tabindex="0" checked>Human</label>
+        <label id="radio-label" tabindex="0">
+          <input id="radio-btn" type="radio" name="gender" value="Human" checked tabindex="0">Human</label>
         <br>
-        <label id="radio-label">
+        <label id="radio-label" tabindex="0">
           <input id="radio-btn" type="radio" name="gender" value="Elven" tabindex="0">Elven</label>
         <br>
-        <label id="radio-label">
+        <label id="radio-label" tabindex="0">
           <input id="radio-btn" type="radio" name="gender" value="Goblin" tabindex="0">Goblin</label>
         <br>
-        <label id="radio-label">
+        <label id="radio-label" tabindex="0">
           <input id="radio-btn" type="radio" name="gender" value="Undead" tabindex="0">Undead</label>
         <br>
-        <label id="radio-label">
+        <label id="radio-label" tabindex="0">
           <input id="radio-btn" type="radio" name="gender" value="Sith Lord" tabindex="0">Sith Lord</label>
       </div>
 
       <br>
-      <label for="class" id="dropdown">Choose a class:</label>
+      <label for="class" id="dropdown" tabindex="0">Choose a class:</label>
       <select name="class">
         <option value="fighter" tabindex="0">Warrior</option>
         <option value="mage" tabindex="0">Mage</option>
@@ -56,12 +56,12 @@
       </select>
       <br>
 
-      <label for="number" id="number-label">Enter your age (Eons):</label>
+      <label for="number" id="number-label" tabindex="0">Enter your age (Eons):</label>
       <input type="number" id="number" value="0" min="0" tabindex="0">
       <br>
 
 
-      <legend for="ability" id="ability-label"> Select Special abilities: </legend>
+      <legend for="ability" id="ability-label" tabindex="0"> Select Special abilities: </legend>
       <div class="checkbox">
         <div id="checkbox">
           <input name="ability" type="checkbox" id="speed" value="sonicspeed" tabindex="0">
@@ -87,7 +87,7 @@
 
       <br>
 
-      <label for="favcolor" id="favcolor-label">Select your armor colors:</label>
+      <label for="favcolor" id="favcolor-label" tabindex="0">Select your armor colors:</label>
       <div class="colors">
         <input type="color" name="favcolor" value="#000000" tabindex="0">
         <input type="color" name="favcolor" value="#fdecce" tabindex="0">
@@ -95,15 +95,15 @@
       </div>
       <br>
 
-      <label for="comment" id="comment-label">Shout to the World:</label>
+      <label for="comment" id="comment-label" tabindex="0">Shout to the World:</label>
       <textarea name="comment" id="comment" cols="40" rows="5" tabindex="0" placeholder="With your first log in, the text will appear in the Global chat.."></textarea>
-      <button type="submit" id="submit-btn" tabindex="">Enter the Void</button>
+      <button type="submit" id="submit-btn" tabindex="2">Enter the Void</button>
     </form>
 
   </div>
 
   <footer>
-    <p>Created by George M.&copy</p>
+    <p tabindex="0">Created by George M.&copy</p>
   </footer>
 
 </body>

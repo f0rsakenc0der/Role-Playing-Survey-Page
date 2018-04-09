@@ -59,8 +59,8 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px 1fr));
     grid-template-rows: repeat(auto-fit, minmax(100px 1fr));
-    font-size: 1.5em;
-    padding: 10px;
+    font-size: 1.7em;
+    padding: 30px;
     grid-gap: 20px;
     color: var(--white);
     width: 100%;

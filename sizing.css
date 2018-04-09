@@ -14,7 +14,7 @@
     }
 
     #survey-form {
-        font-size: 1.4em;
+        font-size: 1.45em;
     }
 
     input, textarea {
@@ -59,7 +59,7 @@
  @media (max-width: 899px) {
 
     header h1 {
-        font-size: 0.9em;
+        font-size: 1em;
     }
     
     header p {

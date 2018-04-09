@@ -40,7 +40,7 @@ header p {
 .container {
     width: 80%;
     height: auto;
-    margin: 0 auto;
+    margin: 10px auto;
     background: var(--blackish-trans);
     border: var(--white) 2px solid;
 }

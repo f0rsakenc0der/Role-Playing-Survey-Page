@@ -1,0 +1,112 @@
+<!<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <title>Come to the fluffy side|Survey</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">"The Magic of the Wizard's Dream"</h1>
+      <p id="description">An exciting magical Role Playing Survey.</p>
+      <img src="https://res.cloudinary.com/f0rsakenc0der/image/upload/v1523173390/5-2-ouroboros-png-file.png" alt="Ouroboros snakes"
+      />
+    </header>
+
+    <form action="#" id="survey-form">
+      <label for="name" id="name-label">Enter your Username: </label>
+      <input name="name" type="text" id="name" placeholder="Enter username.." required>
+      <label for="pass" id="pass-label">Enter your Password:</label>
+      <input name="pass" type="password" id="pass" placeholder="Enter password.." required>
+      <label for="email" id="email-label">Enter your Email:</label>
+      <input name="email" type="email" id="email" placeholder="Enter email.." required>
+      <br>
+
+      <legend for="gender" id="gender-label">Choose your Faction: </legend>
+      <div class="radios">
+        <label id="radio-label">
+          <input id="radio-btn" type="radio" name="gender" value="Human">Human</label>
+        <br>
+        <label id="radio-label">
+          <input id="radio-btn" type="radio" name="gender" value="Elven">Elven</label>
+        <br>
+        <label id="radio-label">
+          <input id="radio-btn" type="radio" name="gender" value="Goblin">Goblin</label>
+        <br>
+        <label id="radio-label">
+          <input id="radio-btn" type="radio" name="gender" value="Undead">Undead</label>
+        <br>
+        <label id="radio-label">
+          <input id="radio-btn" type="radio" name="gender" value="Sith Lord">Sith Lord</label>
+      </div>
+
+      <br>
+      <label for="class" id="dropdown">Choose a class:</label>
+      <select name="class">
+        <option value="fighter">Warrior</option>
+        <option value="mage">Mage</option>
+        <option value="assassin">Assassin</option>
+        <option value="druid">Druid</option>
+        <option value="bannana">Bannana Boi</option>
+      </select>
+      <br>
+
+      <label for="number" id="number-label">Enter your age (Eons):</label>
+      <input type="number" id="number" value="0" min="0">
+      <br>
+
+
+      <legend for="ability" id="ability-label"> Select Special abilities: </legend>
+      <div class="checkbox">
+        <div id="checkbox">
+          <input name="ability" type="checkbox" id="speed" value="sonicspeed">
+          <label for="speed">Sonic speed</label>
+        </div>
+        <div id="checkbox">
+          <input name="ability" type="checkbox" id="superstr" value="superstr">
+          <label for="superstr">Superhuman strength</label>
+        </div>
+        <div id="checkbox">
+          <input name="ability" type="checkbox" id="flying" value="flying">
+          <label for="flying">Flying</label>
+        </div>
+        <div id="checkbox">
+          <input name="ability" type="checkbox" id="telekinisis" value="telekinisis">
+          <label for="telekinisis">Telekinisis</label>
+        </div>
+        <div id="checkbox">
+          <input name="ability" type="checkbox" id="tanned" value="tanned">
+          <label for="tanned">Brazilian tanned skin</label>
+        </div>
+      </div>
+
+      <br>
+
+      <label for="favcolor" id="favcolor-label">Select your armor colors:</label>
+      <div class="colors">
+        <input type="color" name="favcolor" value="#000000">
+        <input type="color" name="favcolor" value="#fdecce">
+        <input type="color" name="favcolor" value="#0b021b">
+      </div>
+      <br>
+
+      <label for="comment" id="comment-label">Shout to the World:</label>
+      <textarea name="comment" id="comment" cols="40" rows="5" placeholder="With your first log in, the text will appear in the Global chat.."></textarea>
+      <button type="submit" id="submit-btn" onclick='return false'>Enter the Void</button>
+    </form>
+
+  </div>
+
+  <footer>
+    <p>Created by George M.&copy</p>
+  </footer>
+
+</body>
+
+</html>
